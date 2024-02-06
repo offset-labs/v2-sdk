@@ -1438,6 +1438,23 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@offsetcarbon/sdk-core@^3.2.3":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@offsetcarbon/sdk-core/-/sdk-core-3.2.3.tgz#d313c6f475b496ccc1be4d85071775ee6f948da2"
+  integrity sha512-OhcMCCv2MFDMTQZdYD+/ra3qfGXHi8lEA8fKh1OpFHKsNdUpPyF6UAf6hOAD+Pj6ZYsszbOif4YObYpR1CsPaA==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
+"@offsetcarbon/v2-core@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@offsetcarbon/v2-core/-/v2-core-1.0.6.tgz#d9fa7c11cb94cfcddf3ef40284c2075ad94ed150"
+  integrity sha512-g8suVEevu8lCmifjtLvNKpR9j+JVrk74LoRz0G0ZcCG22zmDFa9g9z3VtdYHiqRFVKZ//X0dEOUPRPCLdtT1cg==
+
 "@rollup/plugin-babel@^5.1.0":
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.3.0.tgz#9cb1c5146ddd6a4968ad96f209c50c62f92f9879"
@@ -1705,23 +1722,6 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
-
-"@uniswap/sdk-core@^3.0.0-alpha.3":
-  version "3.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-3.0.0-alpha.3.tgz#a742b430a9587fe48384aa5007706d225497c875"
-  integrity sha512-SS6fFbFZT2s/oq1dCdbqLGppVszfL1dkP8uQOIgXm9qecH9Vt70zTwQU73bLP2VskFZcpkN5inTAwSZiZSs5wA==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
-
-"@uniswap/v2-core@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
-  integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
 
 abab@^2.0.0:
   version "2.0.3"
